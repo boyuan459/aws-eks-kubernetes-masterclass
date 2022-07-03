@@ -113,6 +113,9 @@ brew tap weaveworks/tap
 # Install the Weaveworks Homebrew tap.
 brew install weaveworks/tap/eksctl
 
+# If eksctl is already installed, run the following command to upgrade:
+brew upgrade eksctl && brew link --overwrite eksctl
+
 # Verify eksctl version
 eksctl version
 ```
